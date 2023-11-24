@@ -2,9 +2,9 @@
 #define __ROUTER_HAL_COMMON_H__
 
 // you should not include this file in your own code.
-#include "checksum.h"
+#include "../../Homework/internet-checksum/checksum.h"
 #include "common.h"
-#include "eui64.h"
+#include "../../Homework/eui64/eui64.h"
 #include "router_hal.h"
 #include <map>
 #include <pcap.h>
