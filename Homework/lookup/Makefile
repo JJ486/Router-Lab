@@ -1,6 +1,6 @@
 CXX ?= g++
 LAB_ROOT ?= ../..
-CXXFLAGS ?= --std=c++11 -I $(LAB_ROOT)/HAL/include
+CXXFLAGS ?= --std=c++11 -I $(LAB_ROOT)/HAL/include -g
 LDFLAGS ?=
 
 .PHONY: all clean grade
